@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ayo mr white</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="public/logo.jpg" type="image/x-icon">
+</head>
+<body>
+<header>
+  <div class="edge-container">
+    <div class="logo">
+      <img src="public/logo.jpg" alt="Логотип">
+    </div>
+    <div class="name">
+      <p>Группа: ЭФБО-01-23</p>
+      <p>Муртазин Руслан Линарович</p>
+    </div>
+  </div>
+</header>
+<div class="menu">
+  <a href="index.html">Главная</a>
+  <a href="first-sem.html">Первый семестр</a>
+  <a href="#">Второй семестр</a>
+  <a href="services.html">Услуги</a>
+  <a href="#">Авторизация</a>
+</div>
+<div class="main-container">
+  <div class="navigation">
+    <p>Навигация по странице</p>
+    <p><a href="#development">Разработка веб-приложений</a></p>
+    <p><a href="#visit-card-text">Сайт-визитка</a></p>
+    <p><a href="#corporation-text">Корпоративный сайт</a></p>
+    <p><a href="#internet-shop-text">Интернет магазин</a></p>
+  </div>
+  <div class="orders">
+    <h3 id="development">Разработка веб-приложений</h3>
+    <div class="container-shops">
+
+      <div class="visit-card-div">
+        <img src="public/wednesday1.png" alt="Сайт-визитка">
+        <p>Сайт-визитка</p>
+        <button class="openModalBtn">Заказать</button>
+      </div>
+
+      <div class="corporation-div">
+        <img src="public/wednesday2.jpg" alt="Корпоративный сайт">
+        <p>Корпоративный сайт</p>
+        <button class="openModalBtn">Заказать</button>
+      </div>
+
+      <div class="internet-shop-div">
+        <img src="public/wednesday3.jpg" alt="Интернет магазин">
+        <p>Интернет магазин</p>
+        <button class="openModalBtn">Заказать</button>
+      </div>
+    </div>
+    <div class="text">
+      <p class="concepts" id="visit-card-text">Сайт-визитка</p>
+      <p>
+        язнаювсетвоизагоныязнаювсетвоиповадкинесмущайсянастене
+        иконыонаосталасьотбабкиапомнишьмыгулялившколе«гаррипот
+        тера»смотреливместеятебесыграюцоя—этомойплейлистдлясек
+        саприпевсегаanacondazсядьсядьмненалицосядьсядьмненалиц
+        обрбрбрбрбрбрбрбркуплет2сегаanacondazязнаювсетвоизагон
+        ыязнаювсетвоиповадкианадобыловгуглхромеудалятьоткрытые
+        закладкиапомнишьтыпослаланахуйкогдаязалипалвтреклятойд
+        отечётыкосишьсянавазуспрахомбабушканебудетпротивseeupc
+      </p>
+      <p class="concepts" id="corporation-text">Корпоративный сайт</p>
+      <p>
+        язнаювсетвоизагоныязнаювсетвоиповадкинесмущайсянастене
+        иконыонаосталасьотбабкиапомнишьмыгулялившколе«гаррипот
+        тера»смотреливместеятебесыграюцоя—этомойплейлистдлясек
+        саприпевсегаanacondazсядьсядьмненалицосядьсядьмненалиц
+        обрбрбрбрбрбрбрбркуплет2сегаanacondazязнаювсетвоизагон
+        ыязнаювсетвоиповадкианадобыловгуглхромеудалятьоткрытые
+        закладкиапомнишьтыпослаланахуйкогдаязалипалвтреклятойд
+        отечётыкосишьсянавазуспрахомбабушканебудетпротивseeupc
+      </p>
+      <p class="concepts" id="internet-shop-text">Интернет магазин</p>
+      <p>
+        язнаювсетвоизагоныязнаювсетвоиповадкинесмущайсянастене
+        иконыонаосталасьотбабкиапомнишьмыгулялившколе«гаррипот
+        тера»смотреливместеятебесыграюцоя—этомойплейлистдлясек
+        саприпевсегаanacondazсядьсядьмненалицосядьсядьмненалиц
+        обрбрбрбрбрбрбрбркуплет2сегаanacondazязнаювсетвоизагон
+        ыязнаювсетвоиповадкианадобыловгуглхромеудалятьоткрытые
+        закладкиапомнишьтыпослаланахуйкогдаязалипалвтреклятойд
+        отечётыкосишьсянавазуспрахомбабушканебудетпротивseeupc
+      </p>
+    </div>
+  </div>
+</div>
+<div id="my-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>Разработка веб приложения</h1>
+    <form action="/submit" method="post" id="my-form">
+      <p>Заполните форму и мы обязательно свяжемся с вами в ближайшее время для уточнения деталей</p>
+      <label for="name">Как вас зовут:</label>
+      <input type="text" id="name" name="name" placeholder="Иванов Иван Иванович" required><br><br>
+
+      <label for="email">Ваш e-mail:</label>
+      <input type="email" id="email" name="email" placeholder="example@example.com" required><br><br>
+
+      <label for="phone">Телефон:</label>
+      <input type="tel" id="phone" name="phone" placeholder="+7 (999) 999-99-99" required><br><br>
+
+      <label for="country">Страна:</label>
+      <select id="country" name="country">
+        <option value="russia">Россия</option>
+        <option value="bsh">Башмаково</option>
+        <option value="srg">Сургут</option>
+        <option value="rr">липстик</option>
+      </select><br><br>
+
+      <label for="date">Дата:</label>
+      <input type="date" id="date" name="date" required><br><br>
+
+      <label for="comment">Комментарий:</label>
+      <textarea id="comment" name="comment"></textarea><br><br>
+
+      <label>
+        <input type="checkbox" name="consent" required>
+        Согласен на обработку моих персональных данных
+      </label><br><br>
+
+      <button type="submit">Отправить заявку</button>
+    </form>
+  </div>
+</div>
+<footer>
+  <div class="edge-container">
+    <div class="sign">
+      <p>Муртазин Руслан Линарович, 2024</p>
+    </div>
+    <div class = "icon-image">
+      <a href="#"><img src="public/tg.png" alt="tg" height="20"></a>
+      <a href="#"><img src="public/vk.png" alt="vk" height="20"></a>
+      <a href="#"><img src="public/whatsapp.png" alt="whatsapp" height="20"></a>
+    </div> 
+  </div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>

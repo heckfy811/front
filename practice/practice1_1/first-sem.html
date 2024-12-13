@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ayo mr white</title>
+    <link rel="icon" href="public/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="edge-container">
+        <div class="logo">
+            <img src="public/logo.jpg" alt="Логотип">
+        </div>
+        <div class="name">
+            <p>Группа: ЭФБО-01-23</p>
+            <p>Муртазин Руслан Линарович</p>
+        </div>
+    </div>
+</header>
+<div class="menu">
+    <a href="index.html">Главная</a>
+    <a href="first-sem.html">Первый семестр</a>
+    <a href="#">Второй семестр</a>
+    <a href="services.html">Услуги</a>
+    <a href="#">Авторизация</a>
+</div>
+<div class="main-container">
+    <div class="navigation">
+        <p>Навигация по странице</p>
+        <p><a href="#lections">Лекции</a></p>
+        <p><a href="#practices">Практики</a></p>
+        <p><a href="#addr">Адрес вуза</a></p>
+        <p><a href="#program">Рабочая программа</a></p>
+    </div>
+    <div class="content">
+        <p class="concepts" id="lections">Лекции</p>
+        <button id="show-lections-btn">Показать лекции</button>
+        <table id="lections-table" style="display: none;">
+            <thead>
+            <tr>
+                <th>№</th>
+                <th>Тема</th>
+                <th>Отметка о посещении</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Основы языка HTML</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Углубленное изучение HTML</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Основы работы в CSS</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Адаптивная верстка FlexBox и Grid Layout</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Bootstrap - работа с фреймворком</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Основы языка JavaScript</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Работа с DOM и событиями в JavaScript</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Введение в GitHub и GitHub pages</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            </tbody>
+        </table>
+
+        <button id="second-semester-btn">Посмотреть практики второго семестра</button>
+        <p class="concepts" id="practices">Практики</p>
+        <table id="practices-table">
+            <thead>
+            <tr>
+                <th>№</th>
+                <th>Тема</th>
+                <th>Отметка о посещении</th>
+                <th>Отметка о выполнении</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Основы языка HTML</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Формы и кнопки в HTML</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Таблицы и интерактивные элементы HTML</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Основы работы с CSS</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Работы с классами в CSS</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Работа с сетками разметками в HTML</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Адаптивная верстка</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Bootstrap</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Основы языка JavaScript</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Базовые задачи JavaScript</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>DOM структура приложений и работа с объектами в языке JS</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Встраивание скриптов</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Отладка сценариев</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Анимации и работа с ними</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>GitHub</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Защита проекта</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            </tbody>
+        </table>
+        <br>
+        <div>
+            <p class="concepts" id="addr">Занятия проходят по адресу п-кт Вернадского 78</p>
+            <iframe class="map" src="https://yandex.ru/map-widget/v1/?ll=37.480363%2C55.669965&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNjE2ODgxOTM5EkfQoNC-0YHRgdC40Y8sINCc0L7RgdC60LLQsCwg0L_RgNC-0YHQv9C10LrRgiDQktC10YDQvdCw0LTRgdC60L7Qs9C-LCA3OCIKDePrFUIVC65eQg%2C%2C&z=16.71"></iframe>
+        </div>
+        <div>
+            <p class="concepts" id="program">Рабочая программа</p>
+            <iframe class="PDF-prog" src="public/ПР_3_HTML_Таблицы%20и%20мультимедиа.pdf"></iframe>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="edge-container">
+        <div class="sign">
+            <p>Муртазин Руслан Линарович, 2024</p>
+        </div>
+        <div class = "icon-image">
+            <a href="#"><img src="public/tg.png" alt="tg" height="20"></a>
+            <a href="#"><img src="public/vk.png" alt="vk" height="20"></a>
+            <a href="#"><img src="public/whatsapp.png" alt="whatsapp" height="20"></a>
+          </div> 
+    </div>
+</footer>
+<script src="2sem.js"></script>
+</body>
+</html>
